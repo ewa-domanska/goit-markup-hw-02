@@ -1,0 +1,72 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway' sans-serif;
+    --main-color: #212121;
+    --secondary-color: #2196F3;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-color);
+}
+
+/* ======COMPONENTS====== */
+.modal-btn {
+    cursor: pointer;
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.address {
+    font-style: normal;
+}
+
+/* ======END COMPONENTS====== */
+
+
+/* ======HEADER====== */
+.studio-color {
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    color: #212121;
+}
+
+.web-color {
+    font-family: Raleway;
+    color: #2196F3;
+}
+.navigation {
+}
+.navigation-list{
+}
+.navigation-list-menu, .contact-data {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.navigation-list-menu:hover{
+    color: var(--secondary-color);
+}
+/* ======END HEADER====== */
+
+
+/* ======FOOTER====== */
+.address {
+
+}
+
+.address-list {
+
+}
+
+.address-list-item {
+
+}
+
+
+/* ======END FOOTER======*/
