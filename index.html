@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>goit-markup-hw-01</title>
@@ -14,48 +15,56 @@
         <a class="studio-color" href="/goit-markup-hw-02/index.html"><span class="web-color">Web</span>Studio</a>
         <nav class="navigation">
             <ul class="navigation-list">
-                <li class="navigation-list-menu"><a href="#hero">Agencja</a></li>
-                <li class="navigation-list-menu"><a href="/goit-markup-hw-02/portfolio.html">Portfolio</a></li>
-                <li class="navigation-list-menu"><a href="#kontakt">Kontakt</a></li>
+                <li><a class="navigation-list-menu" href="/goit-markup-hw-02/index.html">Agencja</a></li>
+                <li><a class="navigation-list-menu" href="/goit-markup-hw-02/portfolio.html">Portfolio</a></li>
+                <li><a class="navigation-list-menu" href="#kontakt">Kontakt</a></li>
             </ul>
         </nav>
-        <a class="contact-date" href="tel:+48111111111">+48 111 111 111</a>
-        <a class="contact-date" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul>
+            <li>
+            <a class="contact-date" href="tel:+48111111111">+48 111 111 111</a></li>
+            <li>
+            <a class="contact-date" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        </ul>
     </header>
     <main>
         <section>
             <!--Sekcja HERO-->
             <div id="hero"></div>
-            <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-            <button type="button">Zamów usługe</button>
+            <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <button class="modal-btn" type="button">Zamów usługe</button>
         </section>
         <section>
-            <ul>
-                <li>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+            <ul class="boxes">
+                <li class="boxes-text">
+                    <h3 class="boxes-text-header">LOREM IPSUM</h3>
+                    <p class="boxes-text-header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam vel arcu sem. Sed non sodales
+                        dui. Interdum et malesuada</p>
+                </li>
+                <li class="boxes-text">
+                    <h3 class="boxes-text-header">LOREM IPSUM</h3>
+                    <p class="boxes-text-header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam vel arcu sem. Sed non sodales
+                        dui. Interdum et malesuada</p>
+                </li>
+                <li class="boxes-text">
+                    <h3 class="boxes-text-header">LOREM IPSUM</h3>
+                    <p class="boxes-text-header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam vel arcu sem. Sed non sodales
                         dui. Interdum et malesuada</p>
                 </li>
                 <li>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
-                        dui. Interdum et malesuada</p>
-                </li>
-                <li>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
-                        dui. Interdum et malesuada</p>
-                </li>
-                <li>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
-                        dui. Interdum et malesuada</p>
+                    <h3 class="boxes-text-header">LOREM IPSUM</h3>
+                    <p class="boxes-text-header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+
                 </li>
             </ul>
         </section>
         <section>
             <div id="o_nas"></div>
-            <h2>Czym się zajmujemy</h2>
+            <h2 class="secondary-header">Czym się zajmujemy</h2>
             <ul>
                 <li><img src="images/Czym_sie_zajmujemy/mobile.jpg" alt="desktop and mobile" height="294" width="370"/>
                 </li>
@@ -65,42 +74,44 @@
         </section>
         <section>
             <!--zespół-->
-            <h2>Nasz zespół</h2>
+            <h2 class="secondary-header">Nasz zespół</h2>
             <ul>
                 <li>
                     <img src="images/Zespół/product_designer.jpg" alt="Product Designer" height="390" width="406"/>
-                    <h3>John Doe</h3>
-                    <p>Product Designer</p>
+                    <h3 class="boxes-text-header-name">John Doe</h3>
+                    <p class="boxes-text-header-name-position">Product Designer</p>
                 </li>
                 <li>
                     <img src="images/Zespół/Frontend_developer.jpg" alt="Frontend Developer" height="390"
                          width="406"/>
-                    <h3>John Doe</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="boxes-text-header-name">John Doe</h3>
+                    <p class="boxes-text-header-name-position">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="images/Zespół/Marketing.jpg" alt="Marketing" height="390" width="406"/>
-                    <h3>John Doe</h3>
-                    <p>Marketing</p>
+                    <h3 class="boxes-text-header-name">John Doe</h3>
+                    <p class="boxes-text-header-name-position">Marketing</p>
                 </li>
                 <li>
                     <img src="images/Zespół/Ul_Designer.jpg" alt="Ul Designer" height="390" width="406"/>
-                    <h3>John Doe</h3>
-                    <p>Ul Designer</p>
+                    <h3 class="boxes-text-header-name">John Doe</h3>
+                    <p class="boxes-text-header-name-position">Ul Designer</p>
                 </li>
             </ul>
         </section>
     </main>
-<!--kontakt-->
+    <!--kontakt-->
     <div id="kontakt"></div>
     <footer>
-        <a href="/goit-markup-hw-02/index.html"><span>Web</span>Studio</a>
         <address class="address">
             <ul class="address-list">
-                <li class="address-list-item"><a href="https://goo.gl/maps/2o7QPABCCGjatTRK9" target="_blank">m. Warszawa, Aleje
+                <li class="address-list-item"><a class="studio-color-small" href="/goit-markup-hw-02/index.html">
+                    <span class="web-color">Web</span>Studio</a>
+                <li class="address-list-item"><a class="address-list-item" href="https://goo.gl/maps/2o7QPABCCGjatTRK9"
+                                                 target="_blank">m. Warszawa, Aleje
                     Jerozolimskie 21</a></li>
-                <li class="address-list-item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="address-list-item"><a href="tel:+48111111111">+48 111 111 111</a></li>
+                <li><a class="address-list-item-data" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="address-list-item-data" href="tel:+48111111111">+48 111 111 111</a></li>
             </ul>
         </address>
     </footer>
