@@ -182,6 +182,9 @@
     letter-spacing: 0.03em;
     color: #FFFFFF99;
 }
+.address-list-item-data:hover{
+    text-decoration: underline;
+}
 
 /* ======END FOOTER======*/
 
@@ -209,8 +212,8 @@
 .navigation-list:hover,
 .navigation-list:focus,
 .contact-date-portfolio:hover,
-.contact-date-portfolio:focus{
-    text-decoration: underline
+.contact-date-portfolio:focus {
+    text-decoration: underline;
 }
 
 .contact-date-portfolio {
