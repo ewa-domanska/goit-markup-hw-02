@@ -4,7 +4,8 @@
     --main-color: #212121;
     --secondary-color: #2196F3;
 }
- body {
+
+body {
     font-family: var(--main-font);
     color: var(--main-color);
 }
@@ -12,12 +13,8 @@
 /* ======COMPONENTS====== */
 .modal-btn {
     cursor: pointer;
-    background-color: #2196F3;
+    background-color: var(--secondary-color);;
     color: #FFFFFF;
-}
-
-.address {
-    font-style: normal;
 }
 
 /* ======END COMPONENTS====== */
@@ -27,15 +24,14 @@
 .studio-color {
     text-decoration: none;
     font-family: var(--secondary-font);
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    color: #212121;
+    color: var(--main-color);
 }
 
 .web-color {
     font-family: var(--secondary-font);
-    color: #2196F3;
+    color: var(--secondary-color);;
 }
 
 .navigation {
@@ -50,7 +46,7 @@
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--main-color);
     text-decoration: none;
 }
 
@@ -60,7 +56,7 @@
     text-decoration: underline;
 }
 
-.contact-date {
+.contact-data {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
@@ -69,7 +65,7 @@
     text-decoration: none;
 }
 
-.contact-date:hover,
+.contact-data:hover,
 .navigation-list-menu:focus {
     color: var(--secondary-color);
     text-decoration: underline;
@@ -79,7 +75,6 @@
 
 /* ======TEXT BOXES====== */
 .main-header {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.363;
@@ -106,7 +101,6 @@
 }
 
 .boxes-text-header-description {
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -122,7 +116,6 @@
     line-height: 1.166;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 
 .boxes-text-header-name {
@@ -131,12 +124,9 @@
     line-height: 1.187;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 
 .boxes-text-header-name-position {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.187;
     text-align: center;
     letter-spacing: 0.03em;
@@ -148,13 +138,11 @@
 
 /* ======FOOTER====== */
 .address {
-    background-color: #2F303A;;
+    background-color: #2F303A;
 }
 
 .studio-color-small {
     font-family: var(--secondary-font);
-    font-style: normal;
-    font-weight: 400;
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
@@ -163,10 +151,10 @@
 }
 
 .address-list {
+    font-style: normal;
 }
 
 .address-list-item {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.6;
     letter-spacing: 0.03em;
@@ -175,15 +163,16 @@
 }
 
 .address-list-item-data {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     text-decoration: none;
     letter-spacing: 0.03em;
     color: #FFFFFF99;
 }
-.address-list-item-data:hover{
+
+.address-list-item-data:hover {
     text-decoration: underline;
+    color: var(--secondary-color);
 }
 
 /* ======END FOOTER======*/
@@ -196,7 +185,7 @@
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--main-color);
     text-decoration: none;
 }
 
@@ -205,18 +194,19 @@
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--secondary-color);;
     text-decoration: none;
 }
 
 .navigation-list:hover,
 .navigation-list:focus,
-.contact-date-portfolio:hover,
-.contact-date-portfolio:focus {
+.contact-data-portfolio:hover,
+.contact-data-portfolio:focus {
     text-decoration: underline;
+    color: var(--secondary-color);
 }
 
-.contact-date-portfolio {
+.contact-data-portfolio {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
@@ -230,19 +220,17 @@
 .modal-btn-filter {
     background: #F5F4FA;
     border-radius: 4px;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
-    color: #212121;
 }
 
 .modal-btn-filter:hover,
 .modal-btn-filter:focus {
-    background-color: #2196F3;
+    background-color: var(--secondary-color);;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
@@ -257,11 +245,9 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
 }
 
 .projects-portfolio-name-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
