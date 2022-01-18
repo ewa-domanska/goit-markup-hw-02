@@ -50,10 +50,9 @@ body {
     text-decoration: none;
 }
 
-.navigation-list-menu:hover,
 .navigation-list-menu:focus {
     color: var(--secondary-color);
-    text-decoration: underline;
+
 }
 
 .contact-data {
@@ -68,7 +67,6 @@ body {
 .contact-data:hover,
 .navigation-list-menu:focus {
     color: var(--secondary-color);
-    text-decoration: underline;
 }
 
 /* ======END HEADER====== */
@@ -110,6 +108,9 @@ body {
 /* ======END TEXT BOXES====== */
 
 /* ======ABOUT US====== */
+.team {
+    background:#F5F4FA;
+}
 .secondary-header {
     font-weight: 700;
     font-size: 36px;
@@ -171,7 +172,6 @@ body {
 }
 
 .address-list-item-data:hover {
-    text-decoration: underline;
     color: var(--secondary-color);
 }
 
@@ -198,11 +198,8 @@ body {
     text-decoration: none;
 }
 
-.navigation-list:hover,
-.navigation-list:focus,
 .contact-data-portfolio:hover,
 .contact-data-portfolio:focus {
-    text-decoration: underline;
     color: var(--secondary-color);
 }
 
