@@ -49,7 +49,7 @@ body {
     color: var(--main-color);
     text-decoration: none;
 }
-
+.navigation-list-menu:hover,
 .navigation-list-menu:focus {
     color: var(--secondary-color);
 
